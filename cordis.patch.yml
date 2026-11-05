@@ -1,0 +1,14 @@
+# dsh-schedule-calendar bundle patch
+#
+# 安装方式（推荐，桌面端手改 profile）：
+#   1) 把本包目录放到 ~/.dsh/local-plugins/dsh-schedule-calendar
+#   2) 在 ~/.dsh/profiles/desktop/package.json 的 dependencies 加：
+#        "dsh-schedule-calendar": "link:C:/Users/<你>/.dsh/local-plugins/dsh-schedule-calendar"
+#      并在 dsh.profile.bundles 里加入 "dsh-schedule-calendar"
+#   3) 在该 profile 目录 pnpm install
+#   4) 完全退出 DSH 再启动（宿主无热重载）
+#
+# 本补丁只插入插件自身的 loader entry，勿重复注册。
+- insert:
+    - id: dsh-schedule-calendar
+      name: 'dsh-schedule-calendar'

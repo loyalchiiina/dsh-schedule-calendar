@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "settings": {
+    "activePersonId": "p1",
+    "activeCityId": "c-bj",
+    "reminderSound": true,
+    "workReminder": true,
+    "weekStart": 1
+  },
+  "weatherCities": [
+    { "id": "c-bj", "name": "北京", "latitude": 39.9042, "longitude": 116.4074, "country": "中国", "admin1": "北京市" },
+    { "id": "c-sh", "name": "上海", "latitude": 31.2304, "longitude": 121.4737, "country": "中国", "admin1": "上海市" }
+  ],
+  "persons": [
+    {
+      "id": "p1",
+      "name": "我",
+      "schedule": {
+        "type": "double",
+        "workStart": "09:00",
+        "workEnd": "18:00",
+        "bigWeekIsWork": true,
+        "anchorDate": "2026-01-05",
+        "customWorkdays": [1, 2, 3, 4, 5]
+      }
+    }
+  ],
+  "events": [],
+  "todos": []
+}

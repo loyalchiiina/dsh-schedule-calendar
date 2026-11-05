@@ -1,0 +1,22 @@
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+
+  .:
+    dependencies:
+      solarlunar:
+        specifier: 3.1.0
+        version: 3.1.0
+
+packages:
+
+  solarlunar@3.1.0:
+    resolution: {integrity: sha512-PCJsIeSaMyQVK6TZk+tlPNaoAlk02+2UxhI/DS+K0zdLkwTihMp4px6S+Jv6HPPC0p7QsUM18WSs2/HEC1o0wQ==}
+
+snapshots:
+
+  solarlunar@3.1.0: {}

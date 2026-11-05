@@ -1,0 +1,56 @@
+{
+  "name": "dsh-schedule-calendar",
+  "version": "0.3.7",
+  "description": "日程中心（dsh-better-sidebar companion）：侧边栏日程表——多城市天气、节假日、日程与提醒、工作待办、按人设置休息日（双休/大小周/单休/自定义）与上下班倒计时提醒。存储数据随插件包走，便于打包。",
+  "type": "module",
+  "main": "./lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./client": "./lib/client.js",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "lib",
+    "cordis.patch.yml",
+    "data/defaults.json",
+    "icon.svg",
+    "README.md",
+    "LICENSE"
+  ],
+  "icon": "./icon.svg",
+  "keywords": [
+    "dsh",
+    "deepseek-harness",
+    "plugin",
+    "dsh-better-sidebar",
+    "calendar",
+    "schedule",
+    "weather",
+    "todo"
+  ],
+  "license": "MIT",
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [],
+      "platform": "web"
+    },
+    "manifestVersion": 1
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "solarlunar": "3.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/loyalchiiina/dsh-schedule-calendar.git"
+  },
+  "homepage": "https://github.com/loyalchiiina/dsh-schedule-calendar#readme",
+  "bugs": {
+    "url": "https://github.com/loyalchiiina/dsh-schedule-calendar/issues"
+  }
+}
