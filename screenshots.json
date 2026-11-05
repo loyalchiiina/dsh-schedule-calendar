@@ -1,9 +1,9 @@
-{
-  "1": "https://raw.githubusercontent.com/loyalchiiina/dsh-schedule-calendar/main/docs/screenshots/1-today.png",
-  "2": "https://raw.githubusercontent.com/loyalchiiina/dsh-schedule-calendar/main/docs/screenshots/2-today-weather.png",
-  "3": "https://raw.githubusercontent.com/loyalchiiina/dsh-schedule-calendar/main/docs/screenshots/3-calendar.png",
-  "4": "https://raw.githubusercontent.com/loyalchiiina/dsh-schedule-calendar/main/docs/screenshots/4-events.png",
-  "5": "https://raw.githubusercontent.com/loyalchiiina/dsh-schedule-calendar/main/docs/screenshots/5-todos.png",
-  "6": "https://raw.githubusercontent.com/loyalchiiina/dsh-schedule-calendar/main/docs/screenshots/6-reports.png",
-  "7": "https://raw.githubusercontent.com/loyalchiiina/dsh-schedule-calendar/main/docs/screenshots/7-settings.png"
-}
+[
+  "docs/screenshots/1-today.png",
+  "docs/screenshots/2-today-weather.png",
+  "docs/screenshots/3-calendar.png",
+  "docs/screenshots/4-events.png",
+  "docs/screenshots/5-todos.png",
+  "docs/screenshots/6-reports.png",
+  "docs/screenshots/7-settings.png"
+]
