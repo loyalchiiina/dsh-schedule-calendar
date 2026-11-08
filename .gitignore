@@ -3,3 +3,5 @@ data/store.json
 data/*.bak
 data/holidays-*.json
 *.log
+data/mail-*.json
+data/*.bak*
