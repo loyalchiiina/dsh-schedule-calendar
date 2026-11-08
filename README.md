@@ -1,5 +1,10 @@
 # dsh-schedule-calendar · 日程助手
 
+> **功能描述**：日程助手一个面板搞定：今日安排、日历、待办、天气，可开关的黄历与星座运势，每日签到攒运气，并按实际完成情况自动生成日报与周报。适配 DSH 内核 0.2.2-rc.1。
+>
+> **English**: Schedule assistant in one panel: today plan, calendar, to-dos, weather, an almanac and horoscope block you can switch off, a daily check-in, and automatic daily and weekly reports built from what you actually finished. Adapts DSH kernel 0.2.2-rc.1.
+
+
 DSH 桌面端的侧边栏「日程助手」插件：多城市天气、黄历宜忌、农历日历、日程与提醒、工作待办、日报周报、星座运势与配对、好运签到，以及按人设置的休息日（双休 / 大小周 / 单休 / 自定义）与上下班倒计时，全部收进一个侧边栏标签页。
 
 > 依赖宿主插件 `dsh-better-sidebar`（提供侧边栏标签页能力）。
