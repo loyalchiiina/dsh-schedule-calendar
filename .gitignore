@@ -5,3 +5,4 @@ data/holidays-*.json
 *.log
 data/mail-*.json
 data/*.bak*
+.agents/
