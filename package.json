@@ -18,7 +18,9 @@
     "README.md",
     "LICENSE",
     "scripts/toast.ps1",
-    "locale/*.json"
+    "locale/*.json",
+    "docs/screenshots/**",
+    "screenshots.json"
   ],
   "icon": "./icon.svg",
   "keywords": [
