@@ -13,15 +13,19 @@ DSH 桌面端的侧边栏「日程助手」插件：多城市天气、黄历宜�
 
 | 今日（天气 + 日程 + 星座运势） | 日历（农历 / 假期 / 休息日配色） |
 | --- | --- |
-| ![今日](https://raw.githubusercontent.com/loyalchiiina/dsh-schedule-calendar/main/docs/screenshots/1-today.png) | ![日历](https://raw.githubusercontent.com/loyalchiiina/dsh-schedule-calendar/main/docs/screenshots/3-calendar.png) |
+| ![今日](https://raw.githubusercontent.com/loyalchiiina/dsh-schedule-calendar/main/docs/screenshots/1-today.png) | ![日历](https://raw.githubusercontent.com/loyalchiiina/dsh-schedule-calendar/main/docs/screenshots/2-calendar.png) |
 
-| 日程（重复 / 未来高亮） | 待办（截止日期 / 逾期） |
+| 日程（生日解锁 / 自动排列） | 邮件（状态 / 添加账号） |
 | --- | --- |
-| ![日程](https://raw.githubusercontent.com/loyalchiiina/dsh-schedule-calendar/main/docs/screenshots/4-events.png) | ![待办](https://raw.githubusercontent.com/loyalchiiina/dsh-schedule-calendar/main/docs/screenshots/5-todos.png) |
+| ![日程](https://raw.githubusercontent.com/loyalchiiina/dsh-schedule-calendar/main/docs/screenshots/3-events.png) | ![邮件](https://raw.githubusercontent.com/loyalchiiina/dsh-schedule-calendar/main/docs/screenshots/4-mail.png) |
 
-| 报告（日报 / 周报 / 批量） | 设置（人员班制 / 城市 / 配色 / 关于） |
+| 待办（未完成 / 已完成） | 报告（日报 / 周报 / 批量） |
 | --- | --- |
-| ![报告](https://raw.githubusercontent.com/loyalchiiina/dsh-schedule-calendar/main/docs/screenshots/6-reports.png) | ![设置](https://raw.githubusercontent.com/loyalchiiina/dsh-schedule-calendar/main/docs/screenshots/7-settings.png) |
+| ![待办](https://raw.githubusercontent.com/loyalchiiina/dsh-schedule-calendar/main/docs/screenshots/5-todos.png) | ![报告](https://raw.githubusercontent.com/loyalchiiina/dsh-schedule-calendar/main/docs/screenshots/6-reports.png) |
+
+| 设置（人员班制 / 星座） | 设置·提醒与 DIY 壁纸轮播 |
+| --- | --- |
+| ![设置](https://raw.githubusercontent.com/loyalchiiina/dsh-schedule-calendar/main/docs/screenshots/7-settings.png) | ![设置·提醒](https://raw.githubusercontent.com/loyalchiiina/dsh-schedule-calendar/main/docs/screenshots/8-settings-reminders.png) |
 
 ## 功能
 
@@ -36,6 +40,10 @@ DSH 桌面端的侧边栏「日程助手」插件：多城市天气、黄历宜�
 - **人员与班制**：多人管理；每人在「双休 / 大小周 / 单休 / 自定义星期」间切换。**大小周**语义：大周周六周日都休（双休），小周周六上班、周日休；可指定本周大 / 小周并自动交替。
 - **上下班倒计时**：按当前人员班制实时倒计时（距上班 / 距下班），上下班到点提醒。
 - **左侧栏入口**：在原生左侧栏脚部注入「日程助手」按钮，一键打开右侧面板；也可从右侧「新建标签页」选择「日程助手」。
+- **DIY 背景（壁纸文件夹轮播）**：设置里可填一个壁纸文件夹路径（jpg / png / webp / gif），插件读取文件夹内图片自动轮播为面板背景，支持深浅色自动适配与磨砂玻璃效果。
+- **健康 / 趣味提醒**：久坐、喝水（科学饮水量按体重估算）、摸鱼 / 护眼、听音乐等提醒，间隔可自定，支持开关与恢复默认。
+- **邮件监控（⚠️ 暂不可用）**：设置里有添加 QQ 邮箱账号（IMAP 授权码）与开启邮件监控的入口（含模拟一封 / 开启监控）、收件箱展示、Windows 桌面通知与声音提醒；**目前 IMAP 监控功能尚在开发中，界面可操作但真实收发暂不可用**。
+- **日程生日上锁与解锁**：日历视图的生日纪念可上锁保护隐私，解锁后显示备注内容；支持自动排列。
 - **数据随包走**：数据存在插件包内 `data/store.json`，便于整包打包 / 备份。
 
 ## 安装（桌面端 · desktop profile）
