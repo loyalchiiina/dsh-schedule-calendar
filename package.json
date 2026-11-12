@@ -1,7 +1,7 @@
 {
   "name": "dsh-schedule-calendar",
-  "version": "0.4.3",
-  "description": "日程中心（dsh-better-sidebar companion）：侧边栏日程表——多城市天气、节假日、日程与提醒、工作待办、按人设置休息日（双休/大小周/单休/自定义）与上下班倒计时提醒。存储数据随插件包走，便于打包。",
+  "version": "1.0.0",
+  "description": "侧边栏日程中心（dsh-better-sidebar companion）：今日一屏（多城市天气按 8:30/12:00/17:30 定点刷新 + 黄历 + 可折叠星座运势）、农历月历、日程与待办、日报周报与签到、按人设置班制与上下班倒计时；多账号邮件客户端（IMAP 收信 + SMTP 发信，附件收发、群发、草稿箱、收藏/垃圾/垃圾箱/已读未读）；久坐 / 喝水 / 护眼 / 听音乐提醒弹面板内胶囊（停留秒数与位置可调）并可同时推 Windows 通知；壁纸轮播（顺序或随机洗牌、透明度与磨砂）与界面文字颜色可调。数据只存本机。",
   "type": "module",
   "main": "./lib/index.js",
   "exports": {
@@ -30,8 +30,19 @@
     "dsh-better-sidebar",
     "calendar",
     "schedule",
+    "todo",
     "weather",
-    "todo"
+    "almanac",
+    "horoscope",
+    "email",
+    "mail",
+    "imap",
+    "smtp",
+    "attachments",
+    "reminders",
+    "toast",
+    "wallpaper",
+    "appearance"
   ],
   "license": "MIT",
   "dsh": {
@@ -76,5 +87,9 @@
     "@deepseek-ai/dsh": {
       "optional": true
     }
+  },
+  "author": {
+    "name": "loyalchiiina",
+    "url": "https://github.com/loyalchiiina"
   }
 }

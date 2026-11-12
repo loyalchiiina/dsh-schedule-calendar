@@ -6,3 +6,7 @@ data/holidays-*.json
 data/mail-*.json
 data/*.bak*
 .agents/
+data/remind-state.json
+data/mail-files/
+data/remind-state.json*
+data/*.tmp

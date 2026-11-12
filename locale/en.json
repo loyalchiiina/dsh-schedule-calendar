@@ -2,6 +2,6 @@
   "name": "dsh-schedule-calendar",
   "meta": {
     "title": "Schedule Calendar",
-    "description": "v0.4.1 · Sidebar schedule centre: multi-city weather, holidays, events and reminders, work todos, per-person rest-day schemes (double weekend / alternating / single / custom) and countdown-to-off-work alerts."
+    "description": "Sidebar schedule centre: a today view (fixed-time weather, almanac, collapsible horoscope), a lunar month calendar (cells let the wallpaper show through), events and to-dos, daily and weekly reports and a check-in, per-person rest-day schemes with an off-work countdown; a multi-account mail client (IMAP receive + SMTP send, attachments both ways, group send, drafts, star / spam / trash / read-unread, clickable links in the body); sitting / water / eye-care / music reminders shown as in-app capsules floating above the whole DSH client (adjustable dwell time and position, one click to dismiss, optional Windows notifications); a rotating wallpaper appearance (sequential or shuffled, opacity and frosted glass) with adjustable text colour. Data stays local."
   }
 }

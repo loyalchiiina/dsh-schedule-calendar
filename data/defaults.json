@@ -3,28 +3,136 @@
   "settings": {
     "activePersonId": "p1",
     "activeCityId": "c-bj",
+    "weekStart": 1,
     "reminderSound": true,
     "workReminder": true,
-    "weekStart": 1
+    "showAlmanac": false,
+    "showHoroscope": false,
+    "reminderToast": true,
+    "reminderSeconds": 6,
+    "textTone": "auto",
+    "textColor": "#ff004c",
+    "capsX": 44,
+    "capsY": 20,
+    "colors": {
+      "weekend": "#fff3d6",
+      "rest": "#e3f5ec",
+      "holiday": "#ffe0e1",
+      "makeup": "#e5edff"
+    },
+    "buff": {
+      "date": "",
+      "text": "",
+      "streak": 0
+    },
+    "reminders": [
+      {
+        "id": "r-sit",
+        "type": "sit",
+        "emoji": "🧘",
+        "name": "久坐提醒",
+        "enabled": true,
+        "intervalMin": 5,
+        "start": "09:00",
+        "end": "18:00",
+        "msg": "久坐 45 分钟啦，起身活动一下、伸个懒腰吧～"
+      },
+      {
+        "id": "r-drink",
+        "type": "drink",
+        "emoji": "💧",
+        "name": "喝水提醒",
+        "enabled": true,
+        "intervalMin": 5,
+        "start": "08:00",
+        "end": "20:00",
+        "msg": "该喝水啦，小口慢饮，别等口渴才喝～"
+      },
+      {
+        "id": "r-eye",
+        "type": "fun",
+        "emoji": "🐟",
+        "name": "摸鱼/护眼",
+        "enabled": true,
+        "intervalMin": 5,
+        "start": "09:30",
+        "end": "18:00",
+        "msg": "摸鱼时间到～看看远处放松眼睛，别一直盯屏幕"
+      },
+      {
+        "id": "r-music",
+        "type": "music",
+        "emoji": "🎵",
+        "name": "听音乐提醒",
+        "enabled": true,
+        "intervalMin": 5,
+        "start": "10:00",
+        "end": "18:00",
+        "msg": "放首歌听吧，调节心情，效率更高～"
+      }
+    ],
+    "drink": {
+      "weightKg": 60,
+      "totalMl": 2100,
+      "cups": 9,
+      "cupMl": 233,
+      "start": "08:00",
+      "end": "20:00"
+    },
+    "diy": {
+      "enabled": false,
+      "dir": "",
+      "intervalSec": 1,
+      "veil": 0,
+      "order": "rand",
+      "frost": false
+    },
+    "update": {
+      "autoCheck": true
+    }
   },
   "weatherCities": [
-    { "id": "c-bj", "name": "北京", "latitude": 39.9042, "longitude": 116.4074, "country": "中国", "admin1": "北京市" },
-    { "id": "c-sh", "name": "上海", "latitude": 31.2304, "longitude": 121.4737, "country": "中国", "admin1": "上海市" }
+    {
+      "id": "c-bj",
+      "name": "北京",
+      "latitude": 39.9042,
+      "longitude": 116.4074,
+      "country": "中国",
+      "admin1": "北京市"
+    },
+    {
+      "id": "c-sh",
+      "name": "上海",
+      "latitude": 31.2304,
+      "longitude": 121.4737,
+      "country": "中国",
+      "admin1": "上海市"
+    }
   ],
   "persons": [
     {
       "id": "p1",
       "name": "我",
       "schedule": {
-        "type": "double",
-        "workStart": "09:00",
-        "workEnd": "18:00",
+        "type": "bigsmall",
+        "workStart": "08:30",
+        "workEnd": "17:30",
         "bigWeekIsWork": true,
         "anchorDate": "2026-01-05",
-        "customWorkdays": [1, 2, 3, 4, 5]
+        "customWorkdays": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "anchorIsBig": true
       }
     }
   ],
   "events": [],
-  "todos": []
+  "todos": [],
+  "contacts": [],
+  "dailyReports": {},
+  "weeklyReports": {}
 }
