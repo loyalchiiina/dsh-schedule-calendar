@@ -1,6 +1,6 @@
 # dsh-schedule-calendar · 日程助手
 
-> **功能描述**：日程助手一个面板搞定：今日一屏（城市天气定点刷新 + 黄历 + 可折叠星座运势）、农历月历与日程待办、日报周报与每日签到，外加多账号 IMAP 收信 / SMTP 发信的邮件客户端（附件收发、草稿箱、群发）、久坐 / 喝水 / 护眼 / 听音乐提醒（界面内浮层胶囊 + 可选 Windows 系统通知，停留秒数与弹出位置可调，可手动预览）与壁纸轮播外观。适配 DSH 内核 0.2.2-rc.1。
+> **功能描述**：日程助手一个面板搞定：今日一屏（城市天气定点刷新 + 黄历 + 可折叠星座运势）、农历月历与日程待办、日报周报与每日签到，外加多账号 IMAP 收信 / SMTP 发信的邮件客户端（附件收发、草稿箱、群发）、久坐 / 喝水 / 摸鱼护眼 / 听音乐提醒（界面内浮层胶囊 + 可选 Windows 系统通知，停留秒数与弹出位置可调，可手动预览）与壁纸轮播外观。适配 DSH 内核 0.2.2-rc.1。
 >
 > **English**: Schedule assistant in one panel: a today view with city weather refreshed at fixed times, an almanac and a collapsible horoscope block, a lunar month calendar, events and to-dos, daily and weekly reports and a daily check-in — plus a multi-account mail client (IMAP receive + SMTP send, attachments in both directions, drafts, group send), health reminders that surface as an in-app floating capsule on top of the DSH client (adjustable dwell time of 3–60 s and position, optional Windows system notification, manual preview), and a rotating wallpaper appearance. Adapts DSH kernel 0.2.2-rc.1.
 
@@ -27,7 +27,7 @@ DSH 桌面端的侧边栏「日程助手」插件：城市天气（定点刷新�
 
 - **城市天气（定点刷新）**：按「省 / 市 / 区」级联或关键字搜索添加城市（区级用 Nominatim 地理编码，回退 Open-Meteo），横向表格显示今天 / 明天 / 后天 / 大后天 4 天预报；每天 **8:30 / 12:00 / 17:30** 定点刷新，其余时间保持静态不跳动，也可手动「🔄 刷新」，失败自动重试。
 - **黄历（宜 / 忌）**：今日头部在星期右侧显示农历与当日宜忌（本地黄历算法，按日固定），可在设置里开关。
-- **农历月历**：月视图显示农历与节气、法定节假日；周末 / 个人休息日 / 法定假期 / 补班上班 四类背景色可区分，且可在设置里自定义颜色；**点击某天即可查看 / 添加当天日程**（也支持右键加日程）；**开背景图时格子自动半透明**以免挡住壁纸，不开背景则保持原配色。
+- **农历月历**：月视图显示农历与节气、法定节假日；周末 / 个人休息日 / 法定假期 / 补班上班 四类背景色可区分，且可在设置里自定义颜色；**双击某天新建日程**（单击只选中查看，右键菜单也可新建）；**开背景图时格子自动半透明**以免挡住壁纸，不开背景则保持原配色。
 - **日程**：增删改，字段含标题、日期、时间、备注、提前提醒；重复支持**不重复 / 每日 / 每周 / 每月 / 每年 / 农历每年（生日纪念）**；记录创建时间；列表按下次发生排序，**本周期已过发灰、未到的高亮**。
 - **工作待办**：增删改与完成状态切换，可设**截止日期**；未完成列表支持按**时间 / 标题**排序并在**升序 / 降序**间切换（默认时间升序 —— 截止越近越在上，无截止日期排最后），逾期红色「⚠ 逾期」，已完成按完成时间倒序（最近完成的在上）。
 - **日报 / 周报**：日报可「一键生成（自动统计当日日程 / 未完成任务 / 已完成）」，支持按日期区间**批量一键生成**；周报自动汇总本周日报与完成情况，也可手动修改并保存。
