@@ -1,3 +1,12 @@
+## 1.1.27 — 2026-11-26
+
+性能：四处轮询统一加可见性门控
+
+- 今日页秒级倒计时（1000ms，其它页 30000ms）`setNow`：`document.hidden` 时跳过。
+- 邮件页列表加载（20000ms）：`document.hidden` 时跳过（load 幂等整表拉取，跳轮不丢数据）。
+- 胶囊配置轮询 `syncCapSettings`（60000ms）：`document.hidden` 时跳过（整份 /data 拉取 + 重渲染）。
+- 到点提醒 `pollRemind`（15000ms）：`document.hidden` 时跳过；游标不前进＝提醒留在宿主待取，回前台原样补上，不丢提醒。
+
 # Changelog
 
 ## 1.1.26（2026-11-25）
