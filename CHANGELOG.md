@@ -1,3 +1,12 @@
+## 1.1.28 — 2026-11-27
+
+侧栏左下角入口与「DeepSeek 网页面板」「视频墙」统一 30px 紧凑几何
+
+- `.dsc-launch-layer` 由 `position:absolute; bottom:calc(100% - 8px)`（钉在容器上方、42px）改为流内堆叠：`position:relative; width:100%; height:30px; margin:2px 0 0; flex:none`。
+- `.dsc-launch-btn` 统一盒模型：`width:calc(100% + 4px); height:30px; margin:0 -2px; padding:0 8px; border-radius:8px; flex-direction:row`。
+- 容器加 `[class*="footerActions"]{flex-wrap:wrap}`。三家任意安装组合视觉一致（行高 30、图标 x 对齐、行间 2px）。
+- 生效方式：client bundle 改动，Ctrl+Shift+R 硬刷新。
+
 ## 1.1.27 — 2026-11-26
 
 性能：四处轮询统一加可见性门控
